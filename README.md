@@ -6,9 +6,9 @@ network contains simple C codes for testing socket programming.
 
 The source code was originally from [linuxhowtos.org](http://www.linuxhowtos.org/C_C++/socket.htm).
 
-The source code for server.c and server2.c is modified to avoid an error "ERROR on binding: Address already in use". See [here](http://www.yolinux.com/TUTORIALS/Sockets.html) for an explanation.
+The source code for `server.c` and `server2.c` is modified to avoid an error "ERROR on binding: Address already in use". See [here](http://www.yolinux.com/TUTORIALS/Sockets.html) for an explanation.
 
-The difference between server.c and server2.c is server2.c will not terminate after client exits.
+The difference between `server.c` and `server2.c` is the latter will not terminate after client exits. It will be closed only after someone hits Ctrl+C.
 
 ## Features
 
