@@ -4,7 +4,7 @@ network contains simple C codes for testing socket programming.
 
 ## Source
 
-The source code was originally from http://www.linuxhowtos.org/C_C++/socket.htm.
+The source code was originally from [linuxhowtos.org](http://www.linuxhowtos.org/C_C++/socket.htm).
 
 The source code for server.c and server2.c is modified to avoid an error "ERROR on binding: Address already in use". See [here](http://www.yolinux.com/TUTORIALS/Sockets.html) for an explanation.
 
